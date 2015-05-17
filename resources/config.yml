@@ -6,13 +6,13 @@
 dataProvider: yaml
 
 #For MySQL:
-#dataProviderSettings:
+#Add # before "dataProv…" if your using mysql and replace others after that with spaces
+dataProviderSettings: []
 # host: "127.0.0.1"
 # port: 3306
 # user: "user"
 # password: "password"
 # database: "databaseName"
-dataProviderSettings: []
 
 #If enabled, existing logged-in accounts won't be kicked if a new player joins with the same name
 forceSingleSession: true
